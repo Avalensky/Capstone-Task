@@ -96,13 +96,16 @@ Get the Project from my Github Account and then follow these simple steps
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-After completing the installation you will see the following upon runnimg the page
+###### After completing the installation you will see the following upon running the page
 <div align="left">
-  <a href="">
-    <img src="" alt="Logo" width="100" height="100">
+  <a href="https://github.com/Avalensky/Capstone-Task/blob/master/Screenshot%20(26).png">
+    <img src="https://github.com/Avalensky/Capstone-Task/blob/master/Screenshot%20(26).png" alt="Logo" width="100%" height="100%">
   </a>
-
-
+<br>
+###### After selecting your cell phone of choice you'll be directed to the following page, where you'll be concluding your shopping.
+<a href="">
+    <img src="" alt="Logo" width="200%" height="200%">
+  </a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
