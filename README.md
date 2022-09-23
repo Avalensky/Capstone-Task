@@ -54,13 +54,6 @@ This is a simple Cell Phone Online Store Platform, you select the phone you want
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
-* [![React][React.js]][React-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -135,7 +128,7 @@ Don't forget to give the project a star! Thanks again!
 
 Your Name - Ashwinlensky7@gmail.com
 
-Project Link: 
+Project Link: https://github.com/Avalensky/Capstone-Task.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
