@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cell Phones</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <h2>All your phones</h2>
+      <button id="cart-button" class="trigger cart-button-style">
+        Show Cart
+      </button>
+      <div id="shop">
+        <div class="products ios apple" id="iphone-x">
+          <img
+            class="product-image"
+            src="https://kwingy.com/wp-content/uploads/2022/06/apple-iphone-x-new-1.jpg"
+          />
+          <p class="product-name">iPhone X</p>
+          <p class="product-description">
+            A 5.5" beast of processing power from Apple.
+          </p>
+          <p class="product-price" value="999">999</p>
+          <button class="add-to-cart" id="test">ADD TO CART</button>
+        </div>
+
+        <div class="products android samsung" id="samsung-s9">
+          <img
+            class="product-image"
+            src="data:image/jpeg;base64,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"
+          />
+          <p class="product-name">Samsung S9</p>
+          <p class="product-description">
+            The most powerful Android device on the planet.
+          </p>
+          <p class="product-price" value="789">789</p>
+          <button class="add-to-cart">ADD TO CART</button>
+        </div>
+
+        <div class="products android google" id="pixel-2">
+          <img
+            class="product-image"
+            src="https://priceinsouthafrica.com/wp-content/uploads/2021/10/Google-Pixel-6-Pro-Price-in-South-Africa.jpg"
+          />
+          <p class="product-name">Pixel 2</p>
+          <p class="product-description">
+            The perfect phone for a clean Android experience
+          </p>
+          <p class="product-price" value="876">876</p>
+          <button class="add-to-cart">ADD TO CART</button>
+        </div>
+
+        <div class="products android oneplus" id="oneplus-6">
+          <img
+            class="product-image"
+            src="https://helios-i.mashable.com/imagery/longforms/07A9dmhBQQOm98g0zgfq8Ck/hero-image.fill.size_1200x1200.v1619478637.jpg"
+          />
+          <p class="product-name">Oneplus 6</p>
+          <p class="product-description">
+            The latest from a long line of affordable premium devices by Oneplus
+          </p>
+          <p class="product-price" value="799">799</p>
+          <button class="add-to-cart">ADD TO CART</button>
+        </div>
+
+        <div class="products ios apple" id="iphone-8">
+          <img
+            class="product-image"
+            src="https://cellucity.co.za/wp-content/uploads/2021/01/Web-Images-iPhone-8-silver.jpg"
+          />
+          <p class="product-name">iPhone 8</p>
+          <p class="product-description">
+            The little, less-stylish brother of the iPhone X.
+          </p>
+          <p class="product-price" value="719">719</p>
+          <button class="add-to-cart">ADD TO CART</button>
+        </div>
+
+        <div class="products android huawei" id="huawei-p20">
+          <img
+            class="product-image"
+            src="https://fdn2.gsmarena.com/vv/pics/huawei/huawei-p20-lite-1.jpg"
+          />
+          <p class="product-name">Huawei P20</p>
+          <p class="product-description">
+            A solid performer from the chinese giant Huawei.
+          </p>
+          <p class="product-price" value="769">769</p>
+          <button class="add-to-cart">ADD TO CART</button>
+        </div>
+
+        <div class="products android lg" id="lg-g7">
+          <img
+            class="product-image"
+            src="https://fdn2.mobgsm.com/vv/pics/lg/lg-g7-fit-2.jpg"
+          />
+          <p class="product-name">LG G7 ThinQ</p>
+          <p class="product-description">
+            The latest and most powerful smartphone from LG.
+          </p>
+          <p class="product-price" value="699">699</p>
+          <button class="add-to-cart">ADD TO CART</button>
+        </div>
+
+        <div class="products android huawei" id="huawei-mate-10-pro">
+          <img
+            class="product-image"
+            src="https://www.gizmochina.com/wp-content/uploads/2017/12/huawei_mate_10_pro-gy.jpg"
+          />
+          <p class="product-name">Huawei Mate 10 Pro</p>
+          <p class="product-description">
+            The most powerful Android device yet from Huawei.
+          </p>
+          <p class="product-price" value="899">899</p>
+          <button class="add-to-cart">ADD TO CART</button>
+        </div>
+      </div>
+      
+    <div id="cart-wrapper" class="slider close">
+      <div id="cart">
+        <div id="cart-products-wrapper">
+          <table id="cart-table">
+            <thead id="cart-table-header">
+              <th class="name-col">Product Name</th>
+              <th class="quantity-col">Quantity</th>
+              <th class="price-col">Price</th>
+              <th class="updated-price-col">Updated Price</th>
+              <th class="update-col">Update</th>
+              <th class="remove-col">Remove</th>
+            </thead>
+            <tbody id="cart-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="amount-controls">
+        <div id="cart-amount-wrapper">
+          <table>
+            <tbody>
+              <tr id="subtotal-wrappper">
+                <td id="subtotal-label">Subtotal:</td>
+                <td id="subtotal">0.00</td>
+              </tr>
+              <tr id="vat-wrapper">
+                <td id="vat-label">VAT @ 15%:</td>
+                <td id="VAT">0.00</td>
+              </tr>
+              <tr id="courier-wrapper">
+                <td id="courier-label">Courier Costs:</td>
+                <td id="courier">0.00</td>
+              </tr>
+
+              <tr id="total-wrapper">
+                <td id="total-label">Total:</td>
+                <td id="total">0.00</td>
+              </tr>
+
+              <tr id="promo-checkout">
+                <td id="promo-wrapper">
+                  <input id="promo" placeholder="Input Promo Code" />
+                  <button id="apply-promo">Apply Promo</button>
+                </td>
+
+                <td>
+                  <button id="checkout">Checkout</button>
+                </td>
+
+                <td>
+                  <button id="ks" class="keep-shopping">Keep Shopping</button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <h4>Please select your courier option</h4>
+                  <select id="courier-option" onchange="updateCourierCosts()">
+                    <option value="none">Select Delivery or Collect</option>
+                    <option value="collect">Collect</option>
+                    <option value="deliver">Deliver</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <body onload="myFunction()">
+      <script>
+        function myFunction() {
+          alert("Here is your discount coupond (5OFFEVERYTHING)");
+        }
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
