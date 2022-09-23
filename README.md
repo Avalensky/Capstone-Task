@@ -96,10 +96,12 @@ Get the Project from my Github Account and then follow these simple steps
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+After completing the installation you will see the following upon runnimg the page
+<div align="left">
+  <a href="">
+    <img src="" alt="Logo" width="100" height="100">
+  </a>
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
